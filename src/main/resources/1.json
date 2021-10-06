@@ -1,0 +1,1646 @@
+{
+  "log": {
+    "extension": [
+      {
+        "_uri": "http://www.xes-standard.org/time.xesext",
+        "_name": "Time",
+        "_prefix": "time"
+      },
+      {
+        "_uri": "http://www.xes-standard.org/concept.xesext",
+        "_name": "Concept",
+        "_prefix": "concept"
+      }
+    ],
+    "trace": [
+      {
+        "string": {
+          "_value": "instance_0",
+          "_key": "concept:name"
+        },
+        "event": [
+          {
+            "date": {
+              "_value": "2021-06-15T10:11:49.462+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_0",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:11:49.462+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_1",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:11:49.463+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_2",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:11:49.463+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_3",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:11:49.463+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_4",
+                "_key": "concept:name"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "string": {
+          "_value": "instance_0",
+          "_key": "concept:name"
+        },
+        "event": [
+          {
+            "date": {
+              "_value": "2021-06-15T10:11:54.354+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_0",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:11:54.354+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_1",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:11:54.354+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_2",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:11:54.354+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_3",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:11:54.355+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_4",
+                "_key": "concept:name"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "string": {
+          "_value": "instance_0",
+          "_key": "concept:name"
+        },
+        "event": [
+          {
+            "date": {
+              "_value": "2021-06-15T10:11:59.355+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_0",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:11:59.355+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_1",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:11:59.356+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_2",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:11:59.356+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_3",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:11:59.357+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_4",
+                "_key": "concept:name"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "string": {
+          "_value": "instance_0",
+          "_key": "concept:name"
+        },
+        "event": [
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:04.356+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_0",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:04.356+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_1",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:04.356+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_2",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:04.357+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_3",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:04.357+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_4",
+                "_key": "concept:name"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "string": {
+          "_value": "instance_0",
+          "_key": "concept:name"
+        },
+        "event": [
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:09.366+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_0",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:09.366+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_1",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:09.367+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_2",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:09.367+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_3",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:09.367+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_4",
+                "_key": "concept:name"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "string": {
+          "_value": "instance_0",
+          "_key": "concept:name"
+        },
+        "event": [
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:14.353+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_0",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:14.354+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_1",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:14.354+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_2",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:14.354+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_3",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:14.354+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_4",
+                "_key": "concept:name"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "string": {
+          "_value": "instance_0",
+          "_key": "concept:name"
+        },
+        "event": [
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:19.359+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_0",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:19.359+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_1",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:19.359+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_2",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:19.359+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_3",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:19.359+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_4",
+                "_key": "concept:name"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "string": {
+          "_value": "instance_0",
+          "_key": "concept:name"
+        },
+        "event": [
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:24.357+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_0",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:24.357+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_1",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:24.357+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_2",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:24.357+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_3",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:24.357+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_4",
+                "_key": "concept:name"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "string": {
+          "_value": "instance_0",
+          "_key": "concept:name"
+        },
+        "event": [
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:29.375+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_0",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:29.375+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_1",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:29.375+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_2",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:29.376+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_3",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:29.376+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_4",
+                "_key": "concept:name"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "string": {
+          "_value": "instance_0",
+          "_key": "concept:name"
+        },
+        "event": [
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:34.359+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_0",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:34.359+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_1",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:34.359+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_2",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:34.359+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_3",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:34.359+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_4",
+                "_key": "concept:name"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "string": {
+          "_value": "instance_0",
+          "_key": "concept:name"
+        },
+        "event": [
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:39.367+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_0",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:39.367+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_1",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:39.367+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_2",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:39.367+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_3",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:39.367+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_4",
+                "_key": "concept:name"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "string": {
+          "_value": "instance_0",
+          "_key": "concept:name"
+        },
+        "event": [
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:44.358+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_0",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:44.358+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_1",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:44.358+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_2",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:44.358+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_3",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:44.358+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_4",
+                "_key": "concept:name"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "string": {
+          "_value": "instance_0",
+          "_key": "concept:name"
+        },
+        "event": [
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:49.355+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_0",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:49.355+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_1",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:49.355+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_2",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:49.355+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_3",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:49.355+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_4",
+                "_key": "concept:name"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "string": {
+          "_value": "instance_0",
+          "_key": "concept:name"
+        },
+        "event": [
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:54.365+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_0",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:54.365+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_1",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:54.365+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_2",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:54.366+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_3",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:54.366+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_4",
+                "_key": "concept:name"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "string": {
+          "_value": "instance_0",
+          "_key": "concept:name"
+        },
+        "event": [
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:59.353+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_0",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:59.354+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_1",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:59.354+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_2",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:59.354+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_3",
+                "_key": "concept:name"
+              }
+            ]
+          },
+          {
+            "date": {
+              "_value": "2021-06-15T10:12:59.354+02:00",
+              "_key": "time:timestamp"
+            },
+            "boolean": {
+              "_value": "true",
+              "_key": "check"
+            },
+            "string": [
+              {
+                "_value": "Exists",
+                "_key": "criterion"
+              },
+              {
+                "_value": "artefact_4",
+                "_key": "concept:name"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "_xes.features": "nested-attributes",
+    "_xes.version": "2.0",
+    "string": {
+      "_value": "Evidence model",
+      "_key": "concept:name"
+    },
+    "_hash": "7a7eb40656482a245d84f62d62d4479b",
+    "_openxes.version": "1.0RC7"
+  }
+}
