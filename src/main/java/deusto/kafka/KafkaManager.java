@@ -14,8 +14,17 @@ import org.apache.kafka.clients.producer.Producer;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.common.PartitionInfo;
+import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.apache.kafka.common.serialization.StringSerializer;
+import org.apache.kafka.streams.KafkaStreams;
+import org.apache.kafka.streams.StreamsBuilder;
+import org.apache.kafka.streams.StreamsConfig;
+import org.apache.kafka.streams.Topology;
+import org.apache.kafka.streams.kstream.Consumed;
+import org.apache.kafka.streams.kstream.KStream;
+import org.apache.kafka.streams.kstream.KTable;
+import org.apache.kafka.streams.kstream.Produced;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
@@ -23,15 +32,14 @@ import org.json.simple.parser.ParseException;
 import java.io.*;
 import java.time.Duration;
 import java.util.*;
+import java.util.concurrent.CountDownLatch;
 
 public class KafkaManager {
 
     private String ip;
 
     public KafkaManager() {
-
         this.ip = null;
-
     }
 
     public void setIp(String ip) {
@@ -162,11 +170,64 @@ public class KafkaManager {
 
     }
 
-    public static void main(String[] args) {
-        KafkaManager k = new KafkaManager();
-        k.sendFileJson("src/main/resources","jsons");
-        k.downloadData("C:/Users/Asier/Desktop/accesos_directos/puta/","jsons");
+    public void streamAlerts(){
+
+        ArrayList<String> r = new ArrayList<>();
+
+
+        // Ejemplo de Kafka Stream
+        Properties props = new Properties();
+        props.put(StreamsConfig.APPLICATION_ID_CONFIG, "streams-pipe");
+        props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
+        props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String().getClass());
+        props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String().getClass());
+
+        final StreamsBuilder builder = new StreamsBuilder();
+        final KStream <String, String> source = builder.stream("entrada");
+
+        source.flatMapValues(value -> {
+
+            for (String s: value.split(",")) {
+                if (s.contains("_hash")){
+                    r.add(s);
+                }
+            }
+
+            ArrayList<String> w = new ArrayList<>();
+            if (!(isRepeat(r))) w.add("ESTADO: NO REPETIDOS");
+            else w.add("ESTADO: REPETIDOS");
+
+            System.out.println(r);
+
+            return w;
+
+        }).to("test2");
+
+        final KafkaStreams streams = new KafkaStreams(builder.build(), props);
+        streams.cleanUp();
+        streams.start();
+    }
+
+
+    public boolean isRepeat(ArrayList<String> list){
+
+        Set<String> items = new HashSet<>(list);
+        if (items.size() == list.size()){
+            return false;
+        } else {
+            return true;
+        }
 
     }
+
+
+    public static void main(String[] args) {
+
+        KafkaManager a = new KafkaManager();
+        a.setIp("localhost:9092");
+        a.streamAlerts();
+        a.sendFileJson("src/main/resources","entrada");
+    }
+
 
 }

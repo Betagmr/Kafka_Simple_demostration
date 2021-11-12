@@ -128,7 +128,6 @@ public class App extends JFrame {
         sendPanel = new SendPanel();
         filePathPanel = new FilePathPanel();
 
-
         searchButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
